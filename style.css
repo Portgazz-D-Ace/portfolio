@@ -163,7 +163,7 @@ footer i{
 }
 
 
-@media (max-width:412px){
+@media (max-width:778px){
   .nav-container{
     display: none;
   }
@@ -188,7 +188,7 @@ footer i{
   }
 
 }
-@media (max-width:810px){
+@media (max-width:900px){
 
   .hobby-container{
     grid-template-columns: 1fr  ;
