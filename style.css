@@ -161,41 +161,9 @@ footer i{
 .copyright{
   margin-top: 10px;
 }
-@media (max-width:900px){
-
-  .hobby-container{
-    grid-template-columns: 1fr  ;
-    gap: 20px;
-    padding-top: 40px;
-  }
-  .hobby-container img{
-    display: none;
-  }
-  .do-container{
-    grid-template-columns: 1fr;
-    width: 40%; 
-}
-.hobby-container div h3{
-  text-align: center;
-}
-.hobby-container div p{
-  line-break:loose;
-  text-align: center;
-}
-.do-container img{
-  display: none;
-}
-
-}
 @media (max-width: 778px) {
   .nav-container {
     display: none;
-  }
-  .hero-pfp{
-    display: none;
-  }
-  .hero-container{
-   height: 30vh;
   }
   .hero-text {
     flex-direction: column;
@@ -219,6 +187,35 @@ footer i{
     height: 117vh;
   }
 }
+
+@media (max-width: 900px) {
+  .hero-contianer {
+    height: 51vh;
+  }
+  .hobby-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+  }
+  .hobby-container img {
+    display: none;
+  }
+  .do-container {
+    grid-template-columns: 1fr;
+    width: 40%;
+  }
+  .hobby-container div h3 {
+    text-align: center;
+  }
+  .hobby-container div p {
+    line-break: loose;
+    text-align: center;
+  }
+
+  .do-container img {
+    display: none;
+  }
+}
 @media (max-width: 400px) {
   .about-main {
     height: 121vh;
@@ -226,6 +223,8 @@ footer i{
   .hero-pfp{
     display: none;
   }
+ 
+
   .do-main{
     height: 133vh;
   }
