@@ -219,3 +219,16 @@ footer i{
     height: 117vh;
   }
 }
+@media (max-width: 400px) {
+  .about-main {
+    height: 121vh;
+  }
+  .hero-pfp{
+    display: none;
+  }
+ 
+
+  .do-main{
+    height: 133vh;
+  }
+}
