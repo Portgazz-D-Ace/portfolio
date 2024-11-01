@@ -226,7 +226,9 @@ footer i{
   .hero-pfp{
     display: none;
   }
- 
+   .about-main {
+    height: 89vh;
+  }
 
   .do-main{
     height: 133vh;
